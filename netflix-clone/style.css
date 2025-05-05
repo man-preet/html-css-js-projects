@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/fa7be975-efc3-48c6-8188-f07fdd1aa476/web/IN-en-20250428-TRIFECTA-perspective_e045264e-b4d4-4a6f-b2cc-f95e3344a332_large.jpg");
+    background-repeat: no-repeat;
+    width:100vw;
+    height:90vh;
+    position:relative;
+    /* clip-path: polygon(0 0, 100% 0, 100% 42%, 100% 97%, 51% 88%, 0 100%); */
+
+
+}
+.main .box{
+    width:100vw;
+    height: 90vh;
+    background-color: black;
+    opacity:0.6;
+    position:absolute;
+    top:0;
+    z-index: 0;
+
+}
+nav{
+    position:relative;
+    z-index: 1;
+    display:flex;
+    justify-content: space-around;
+}
+
+.btns{
+    display: flex;
+    width:15%;
+    justify-content: space-between;
+    align-items: center;
+}
+.lang{
+    border: 1px solid white;
+    padding:5px 20px;
+    height:35px;
+    color:white;
+    background-color: transparent;
+}       
+.signin{
+    background-color: red;
+    padding:5px 15px;
+    color:white;
+    height:35px;
+    border-radius:5px ;
+    border: transparent;
+}
+.hero-content{
+    position:relative;
+    color:white;
+    width:50%;
+    margin:auto;
+    top:70px;
+    text-align: center;
+
+
+
+}
+.hero-content h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+.hero-content p{
+    font-size: 22px;
+    font-weight: 600;
+}
+input[type="email"]
+{
+    padding: 20px 10px; 
+    width:20vw;
+    border:transparent;
+    font-size:18px;
+    background-color: rgb(40, 40, 40);
+}
+input[type="email"]:focus{
+    outline:none;
+
+}
+.started{
+    padding: 17px; 
+    background-color: red;
+    color:white;
+    font-size: 20px;
+    border:transparent;
+
+
+}
+.hero-content>h1,p,input{
+    margin-bottom:30px;
+}
+.email{
+    display: flex;
+}
+
+.trending-movies{
+    display:flex;
+    width:80%;
+    gap:50px;
+    overflow-y: scroll;
+    margin:auto;
+}
+ .trending-movies img{
+    width:15vw;
+    height:30vh;
+    margin-top:20px;
+    border-radius: 20px;
+
+ }
+
+ span{
+    color:white;
+    position: relative;
+    top:-180px;
+    left:-15px;
+    font-size: 150px;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: black;
+
+ }
+ .more{
+    display: flex;
+    width:80vw;
+    margin:auto;
+    margin-top:30px;
+    gap:20px;
+    flex-flow: row wrap;
+
+ }
+ .cards{
+    color:white;
+    width:18vw;
+    padding:15px;
+    border-radius: 20px;
+    background:linear-gradient(to right,#620f24 , #8f0726 );
+    
+ }
+ .crads>h1,p{
+    padding-bottom:10px;
+ }
+ .faqs{
+    width:80vw;
+    margin:auto;
+
+ }
+ .faq{
+    margin-top:30px;
+ }
+
+ .faq h2{
+    color:white;
+    padding:20px 40px;
+    /* font-size: 24px; */
+    background-color: rgb(78, 78, 78);
+    display: inline-flex;
+    align-items: center;
+    width:80vw;
+    gap:75%;
+    cursor: pointer;
+ }
+
+ .faq p{
+    color:white;
+    background-color: rgb(78, 78, 78);
+    padding:30px;
+    text-align: justify;
+    display: none;
+ }
+
+ .contact{
+    width:80vw;
+    margin:auto;
+    text-align: center;
+    margin-top:30px;
+ }
+ .footer{
+    color:white;
+    display: flex;
+    width:80vw;
+    margin:auto;
+    justify-content: space-between;
+    padding-bottom:30px;
+ }
+ .footer1, .footer2, .footer3{
+    color:grey;
+
+ }
+ ul li{
+    list-style:none;
+    text-decoration: underline;
+    font-size: 16px;
+    margin-top:20px;
+ }
